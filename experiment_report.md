@@ -12,8 +12,8 @@ Chay `agent_simulation.py` voi 2 bo du lieu va ghi lai ket qua:
 
 | Scenario | Agent Response | Accuracy (1-10) | Notes |
 |----------|----------------|-----------------|-------|
-| Clean Data (`processed_data.csv`) | Based on my data, the best choice is Laptop at $1200. | | |
-| Garbage Data (`garbage_data.csv`) | Based on my data, the best choice is Nuclear Reactor at $999999. | | |
+| Clean Data (`processed_data.csv`) | Based on my data, the best choice is Laptop at $1200. | 10 | Cau tra loi hop ly, dung voi du lieu sach va logic chon gia cao nhat trong nhom electronics. |
+| Garbage Data (`garbage_data.csv`) | Based on my data, the best choice is Nuclear Reactor at $999999. | 1 | Agent bi anh huong boi outlier va du lieu rac nen tra loi sai nhung van rat tu tin. |
 
 ---
 
